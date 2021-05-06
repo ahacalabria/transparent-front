@@ -1,0 +1,50 @@
+.box-fixed{
+    width: 400px;    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 0;
+}
+.box-scrolling{
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+.hover{
+    cursor: pointer;
+}
+
+.mr5{
+    margin-right: 5px;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.0em;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(31, 71, 109);
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: rgb(25, 59, 90);
+    color: white;
+}
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+time{
+    font-family: sans-serif!important;
+    font-size: 14px !important;
+}

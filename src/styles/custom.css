@@ -1,0 +1,291 @@
+body{
+    color: #444444;
+}
+#Body{
+    min-height: 550px;
+}
+.primary{
+    background: #1779ba !important;
+}
+.secondery{
+    background: #2A2C43 !important;
+    color:#ffffff !important;
+}
+.left{
+    float:left !important;
+}
+input{
+    color:#333333 !important;
+    border-radius:5px !important;
+}
+button{
+  border-radius:5px !important;
+}
+.off-canvas{z-index: 1 !important}
+h1,h2,h3, h4{
+  font-weight: bold !important;
+}
+
+
+.people-you-might-know {
+    background-color: #fefefe;
+    padding: 1rem 0 0;
+    border: 1px solid #cacaca;
+    box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.18);
+  }
+  
+  .people-you-might-know .add-people-header {
+    padding: 0 0.9375rem;
+    border-bottom: 0.0625rem solid #cacaca;
+  }
+  
+  .people-you-might-know .add-people-header .header-title {
+    font-weight: bold;
+  }
+  
+  .people-you-might-know .add-people-section {
+    margin: 1rem 0 0;
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem solid #cacaca;
+  }
+  
+  .people-you-might-know .add-people-section .about-people {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  
+  .people-you-might-know .add-people-section .about-people .about-people-avatar {
+    padding-right: 0.5rem;
+    padding-left: 0;
+  }
+  
+  .people-you-might-know .add-people-section .about-people .about-people-avatar .avatar-image {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 0.0625rem solid #cacaca;
+  }
+  
+  .people-you-might-know .add-people-section .about-people .about-people-author {
+    -webkit-flex: 1 0 0;
+        -ms-flex: 1 0 0px;
+            flex: 1 0 0;
+  }
+  
+  .people-you-might-know .add-people-section .about-people .about-people-author .author-name {
+    color: #0a0a0a;
+    margin: 0.375rem 0 0;
+  }
+  
+  .people-you-might-know .add-people-section .about-people .about-people-author .author-location,
+  .people-you-might-know .add-people-section .about-people .about-people-author .author-mutual {
+    color: #8a8a8a;
+    margin-bottom: 0;
+    font-size: 0.85em;
+  }
+  
+  .people-you-might-know .add-people-section .add-friend {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  @media screen and (max-width: 39.9375em) {
+    .people-you-might-know .add-people-section .add-friend {
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+    }
+  }
+  
+  .people-you-might-know .add-people-section .add-friend .add-friend-action {
+    margin-top: 0.7rem;
+  }
+  
+  .people-you-might-know .view-more-people {
+    margin: .7rem 0;
+  }
+  
+  .people-you-might-know .view-more-people .view-more-text {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .people-you-might-know .view-more-people .view-more-text .view-more-link {
+    color: #1779ba;
+  }
+  
+  .people-you-might-know .view-more-people .view-more-text .view-more-link:hover, .people-you-might-know .view-more-people .view-more-text .view-more-link:focus {
+    text-decoration: underline;
+  }
+
+.navbar-inverse{
+ background-color: #005ba2 !important;
+ border-color: #005ba2 !important;
+ border-radius: 0;
+}
+.navbar-nav>li>a, .navbar-brand {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.navbar, .navbar-brand {
+    min-height: 45px;
+    height: 45px;
+}
+
+.navbar-inverse{
+ background-color: #005ba2 !important;
+ border-color: #005ba2 !important;
+ border-radius: 0;
+}
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.navbar-nav>li>a, .navbar-brand {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.navbar, .navbar-brand {
+    min-height: 45px;
+    height: 45px;
+}
+.nav-tabs>li>a {
+    padding: 10px 25px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border-top: #000 solid 3px;
+    border-radius: 1px;
+    font-size: 19px;
+}
+.nav-tabs>li>a {
+    border-top: transparent solid 3px;
+    border-radius: 1px;
+    font-size: 19px;
+    z-index: 10;
+}
+.nav-tabs>li {
+    float: none;
+    display: inline-block;
+}
+.nav-tabs{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.nav-tabs>li::after{
+    content:'';
+    width: 23px;
+    height: 23px;
+    background-color: #CCC;
+    position: absolute;
+    border-radius: 100%;
+    left: 20px;
+    top: 15px;
+    z-index: 9;
+}
+#controlled-tab-example{
+    padding: 15px;
+    padding-top: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    margin-bottom:20px;
+    border-radius:6px;  
+}
+
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+  }
+  /* nav{
+      display: none
+  } */
+  
+  .shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+  .form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #FFF; 
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  .form-signin .form-signin-heading,
+  .form-signin .checkbox {
+    margin-bottom: 10px;
+  }
+  .form-signin .checkbox {
+    font-weight: normal;
+  }
+  .form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .nav-tabs>li:nth-child(1)::after{
+    display: none !important;
+}
+.navbar{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.clear-filter{
+  position: absolute;
+  top: 6px;
+  right: 25px;
+  float: inherit;
+}
+.filter-input {
+  height: 34px !important;
+}
+.filter-container{
+  margin-bottom: 20px;
+}
+.border-black{
+  border: 1px solid #b3b3b3;
+  padding: 5px 5px 0px 10px;
+  border-radius: 5px;
+}
+div.react-date-picker__wrapper{
+  border-color: transparent!important;
+}
+
+.react-calendar__tile--active > time {
+  color: #ffffff!important;
+}
+.react-calendar__navigation{
+  background-color: #cccccc;
+}
+.react-date-picker__button{
+  padding-top: 0px!important;
+}
